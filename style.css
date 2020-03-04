@@ -1,0 +1,19 @@
+#corpo{
+    background-image: url("images/linux.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: Arial;
+}
+
+#Intro{
+    color: white;
+}
+
+#CS{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#language{
+    color: white;
+}
