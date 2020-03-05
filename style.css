@@ -1,8 +1,19 @@
 #corpo{
-    background-image: url("images/linux.jpg");
+    background-image: url("images/mac.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     font-family: Arial;
+}
+#corpoalgoritmo{
+    background-image: url("images/white.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: sans-serif;
+    font-size: small;
+    color: black;
+}
+#algoritms{
+    color: white;
 }
 
 #Intro{
@@ -16,4 +27,15 @@
 
 #language{
     color: white;
+}
+#tabela{
+    border-radius: 0.5ch;
+    position: relative;
+    text-align: left;
+    color: orangered;
+    padding: 5px;
+    font-family: 'Arial';
+    font-size: 1.0em;
+    width: 40%;
+    
 }
