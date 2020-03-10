@@ -28,14 +28,6 @@
 #language{
     color: white;
 }
-#tabela{
-    border-radius: 0.5ch;
-    position: relative;
-    text-align: left;
+#kindsa{
     color: orangered;
-    padding: 5px;
-    font-family: 'Arial';
-    font-size: 1.0em;
-    width: 40%;
-    
 }
