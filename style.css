@@ -26,8 +26,21 @@
 }
 
 #language{
-    color: white;
+    font-size: 14;
+    font-family: Arial;
+    color: black;
 }
 #kindsa{
-    color: orangered;
+    color: red;
+}
+
+#begin {
+    background-image: url("images/frame.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#caverinha{
+    color: black;
+    font-family: Arial;
+    font-size: 14;
 }
