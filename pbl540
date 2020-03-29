@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PBL_540</title>
+</head>
+
+<body>
+    <form action = "formulario.php" method = "get">
+        <h1 id = "dadosprimarios"> 
+            <font size = "5">
+        <p>Dados Primarios:</p>
+        <fieldset>
+        <p>Nome:
+            <br><input type = "text" name = "seunome" size = "30" maxlength = "30"/>
+        </p>
+        <p>Endereco:
+            <br><input type = "text" name = "endereco" size = "30" maxlength = "50"/>
+        </p>
+        <p>Cidade:
+            <br><input type = "text" name = "cidade" size = "30" maxlenght = "30"/>
+        </p>
+        <p>Estado:
+            <br><select name = "estado">
+                <option value = "Alagoas">Alagoas</option>
+                <option value = "Acre">Acre</option>
+                <option value = "Amapa">Amapa</option>
+            </select>
+        <br><label for = "dtnasc">Data de nascimento:</label> 
+            <br><input type = "date" name = "dtnasc"/>
+        </p>
+        </fieldset>
+        </font>
+    </h1>
+    </form>
+</body>
+
+
+
+
+
+
+
+
+</html>
