@@ -1,0 +1,39 @@
+Classes de IP e IPs Reservado.
+
+Classes de IP:
+IPv4 é um grupo de 32 bits separados em 4 octetos, geralmente representado em decimal separado por pontos por exemplo:
+
+A.b.c.d,
+
+Onde a menor representação é 0.0.0.0 e a maior 255.255.255.255
+
+Cada dispositivo de uma Rede necessita de um IP unico para identificação, para que o pacote de dados ( informação ) seja entregue corretamente, Voce também tera obrigatoriamente usar endeuso que nao seja usado por nenhum computador naquela rede.
+
+Para facilitar a distribuição e o entendimento dos endereços IPs foram criados cinco classes de endereço IP:
+A
+Faixa de Endereçamento = 0.0.0.0 a 127.255.255.255
+B
+Faixa de Endereçamento = 128.0.0.0 a 191.255.255.255
+C
+Faixa de Endereçamento = 192.0.0.0 a 223.255.255.255
+D
+Faixa de Endereçamento = 224.0.0.0 a 239.255.255.255
+E
+Faixa de Endereçamento = 240.0.0.0 a 247.255.255.255
+
+Como reparado acima alguns dos IPs não entram dentro desta faixa especificada, pois são de uso reservado como de exemplo o endereço 127.0.0.1 que se refere a propria maquina que esta sendo utilizada no momento, resumindo é o próprio Host.
+
+Em Redes como dito acima existem 5 distribuições, as mais utilizadas no momento são as Classes A,B, e C.
+
+Na Classe A os primeiro números eles indicam a rede, e os outros números indicam a maquina representada, E o máximo de maquinas que essa classe consegue armazenar é de 16.777.216( máximo de 126 redes ).
+
+Na Classe B os dois primeiros números identificam a rede e o restante as maquinas, Este tipo de endereço consegue armazenar até 65.536 maquinas ( máximo de 16.384 redes ) 
+
+Na classe C os três primeiros números referem-se a rede, e os ultimos numeros indicam as maquinas, sendo possível endereçar 256 maquinas com um máximo de 2.097.150 redes.
+
+Referente as classes D e E existem por alguns motivos especiais, por exemplo a Classe D e usada para propagação de pacotes especias para a comunicação entre os computadores o que seria enderecos multicast. E a Classe E está reservada pra aplicações futuras ou experimentais.
+
+Então A escolha do tipo de enderecamento de rede é de grande importância, A B ou C, ela é feita com base no tamanho da sua rede e no quanto de maquinas possíveis será capaz de conectar, Para isso também e necessário ter conhecimento de Sub-redes.
+
+Ainda existem redes que utilizam o modelo IPv4, entretanto no passado seria de conhecimento que alguma hora no futuro a quantidade de dispositivos conectados a internet seria atingido.
+Dentro desse problema, Já foi padronizado o IPv6 que diferente do IPv4 ele usa 128 bits ao invés de 32 bits, sendo possível endereçar 2ˆ128 dispositivos conectados, que é uma quantidade enorme, mas também como houve no passado, algum dia esse limite vai chegar.
